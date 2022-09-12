@@ -1,0 +1,113 @@
+/* Imported fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;700&family=Poppins:wght@700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf5ff;
+  color: #333;
+  line-height: 1.2;
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 2.8rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h5  {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+ /* styling header here */
+header.header{
+  display: block;
+  width: 100vw;
+  height: 100px;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+}
+
+a.score-btn {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a.score-btn:hover {
+  color:rgb(109, 13, 109);
+  cursor: pointer;
+}
+
+.count-time{
+  float: right;
+  font-weight: bolder;
+}
+
+main {
+  width: 100vw;
+  margin-top: 100px;
+}
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 45rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.cont-col {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+cont-center{
+  justify-content: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* buttons */
+.q-btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  width: auto;
+  text-align: center;
+  border: 0.1rem solid rgb(109, 13, 109);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color:white;
+  border-radius: 0.5rem;
+  background-color: rgb(109, 13, 109);
+}
+/* added hover effect */
+.q-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
